@@ -206,8 +206,8 @@ export default function Contact() {
             {/* Resume download */}
             <motion.div variants={cardVariants} custom={0.2}>
               <a
-                href="/resume.pdf"
-                download
+                href="/Ankit_Premi_Resume.pdf"
+                download="Ankit_Premi_Resume.pdf"
                 className="flex items-center justify-between px-6 py-4 border border-[#ffd700]/20 text-[#ffd700]/60 hover:border-[#ffd700]/50 hover:text-[#ffd700] transition-all duration-300 group rounded-xl"
                 style={{ background: "rgba(255,215,0,0.03)" }}
               >
