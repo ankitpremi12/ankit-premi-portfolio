@@ -15,10 +15,10 @@ export function useLenis() {
           smoothWheel: true,
         });
 
-        function raf(time: number) {
+        const raf = (time: number) => {
           lenis?.raf(time);
           requestAnimationFrame(raf);
-        }
+        };
 
         requestAnimationFrame(raf);
       } catch (e) {
